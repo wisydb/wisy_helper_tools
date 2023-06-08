@@ -1,0 +1,180 @@
+body {
+ font-family: 'Arial', sans;
+ background-color: #eee;
+  width: 100%;
+}
+
+#wrapper {
+  background-color: white;
+  width: 600px;
+  height: 90%;
+  width: 800px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  padding-bottom: 40px;
+  box-shadow: 5px 5px 7px #ccc;
+}
+
+.error, h1 {
+ color: darkred;
+}
+
+#email {
+  margin-top: 10px;
+	width: 295px
+}
+
+#download_monitor, #unzip_monitor, #dbimport_monitor, #live_output, #log_monitor, #misc {
+ background-color: #eee;
+ padding: 5px;
+ white-space: pre-wrap;
+ font-family: monospace;
+}
+
+#forms, #dbimport_monitor, #dbmonitorlabel, #neuladen, #startImport, #monitors, #liveoption {
+ display: none;
+}
+
+hr {
+ border: 1px solid #eee;
+}
+
+#head_wrapper {
+ width: 100%;
+}
+
+#abbruch, #neuladen {
+ color: white;
+ background-color: darkred;
+ float: right;
+ display: none;
+}
+
+select {
+ font-weight: bold;
+}
+
+select option:first-child, select#quicker {
+ font-weight: normal;
+}
+
+.led-red {
+ display: inline-block;
+ position: absolute;
+ margin-top: 8px;
+ margin-left: 784px;
+ width: 8px;
+ height: 8px;
+ opacity: .8;
+ background-color: #940;
+ border-radius: 50%;
+ box-shadow: 0 -1px 5px 3px #faa, 0 -1px 10px #600 inset, 0 2px 5px #faa;
+ display: none;
+}
+
+.led-yellow {
+ display: inline-block;
+ position: absolute;
+ margin-top: 8px;
+ margin-left: 784px;
+ width: 8px;
+ height: 8px;
+ opacity: .8;
+ background-color: #A90;
+ border-radius: 50%;
+ box-shadow: #fff 0 -1px 7px 1px, inset #660 0 -1px 9px, #DD0 0 2px 12px;
+ display: none;
+}
+
+.led-green {
+ display: inline-block;
+ position: absolute;
+ margin-top: 8px;
+ margin-left: 784px;
+ width: 8px;
+ height: 8px;
+ opacity: .8;
+ background-color: #690;
+ border-radius: 50%;
+ box-shadow: #fff 0 -1px 7px 1px, inset #460 0 -1px 9px, #7D0 0 2px 12px;
+ display: none;
+}
+
+.led-blue {
+ display: inline-block;
+ position: absolute;
+ margin-top: 8px;
+ margin-left: 784px;
+ width: 8px;
+ height: 8px;
+ opacity: .8;
+ background-color: #4AB;
+ border-radius: 50%;
+ box-shadow: 0 -1px 7px 1px #AAF, 0 -1px 9px #13A inset, 0 2px 14px #06f;
+ display: none;
+}
+
+#sandboxchoicecontainer {
+ display: none;
+ position: absolute;
+ margin-top: -84px;
+ margin-left: 450px;
+}
+
+#arrow {
+ display: none;
+ color: darkred;
+ font-size: 50px;
+}
+
+#sandbox {
+ position: absolute;
+ margin-top: 25px;
+ margin-left: 20px;
+ color: darkred;
+}
+
+.server2 {
+ color: #0083b2;
+}
+
+#kopf_logo {
+    margin-left: 290px;
+    margin-top: -126px;
+    position: absolute;
+}
+
+#kopf_logo #hamburg {
+    color: #0083b2 !important;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: -4px;
+}
+
+#kopf_logo #aktiv {
+    margin-left: 206px;
+    margin-top: -62px;
+    position: absolute;
+    color: #03b6f9 !important;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.skipBackup {
+ display: none;
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) 
+{
+ #arrow {
+  margin-top: 5px;
+ }
+ 
+ #sandbox {
+  margin-top: -33px;
+  margin-left: 70px;
+ }
+}

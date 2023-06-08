@@ -1,0 +1,5 @@
+# AuthName "Area 51"
+# AuthType Basic
+# AuthUserFile <[...]>/.htpasswd
+# AuthGroupFile /dev/null
+# require valid-user
